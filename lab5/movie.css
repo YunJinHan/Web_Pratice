@@ -1,0 +1,107 @@
+/* class 갯수 : 9개 - banner main right left column review reviewer bottom vaildate*/
+/* id 갯수 : 1개 - leftTop */
+body {
+    background-image: url(background.png);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-image: url(bannerbg.png);
+    background-repeat: repeat-x;
+    height: 50px;
+}
+h1 {
+    font: bold 24pt Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+.main {
+    margin: auto;
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+.left {
+    width: 550px;
+}
+#leftTop {
+    background-image: url(rbg.png);
+    height: 83px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+#leftTop img {
+    padding-right: 5px;
+}
+.column {
+    width: 47%;
+    margin-left: 2%;
+}
+.review {
+    font-size: 8pt;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+    padding: 8px;
+}
+.review img {
+	padding-right: 5px;
+}
+.reviewer {
+    padding-bottom: 20pt;
+}
+span {
+    font-style: italic;
+}
+.reviewer img{
+    padding-right: 5px;
+}
+.right {
+    float : right;
+    width: 250px;
+    background-color: #A2B964;
+    font : 8pt;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+dl {
+    margin-left: 10pt;
+    margin-right: 10pt
+}
+dt {
+    font-weight: bold;
+	margin-top: 10pt;
+}
+dd {
+    margin-bottom: 10pt;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.bottom {
+    clear : both;
+    background-color: #A2B964;
+    margin: 0;
+    padding: 5px;
+}
+.validate {
+	position:fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.5;
+}
+.main, .review {
+    overflow: hidden;
+}
+.banner, h1, .bottom {
+    text-align: center;
+}
+#leftTop img, .review img, .reviewer img, .column {
+    float : left;
+}
